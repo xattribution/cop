@@ -21,4 +21,4 @@ This will copy the contents of the specified file to your clipboard.
 How to Install: 
 
 Run this one-liner to download and execute the script:
-bash <(curl -fsSL https://raw.githubusercontent.com/yourusername/yourrepo/main/setup_cop.sh)
+"bash <(curl -fsSL https://raw.githubusercontent.com/yourusername/yourrepo/main/setup_cop.sh)"
