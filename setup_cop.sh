@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Check if the script is run as root or with sudo
+if [ "$(id -u)" -ne 0 ]; then
+    echo "This script must be run as root or with sudo privileges."
+    exit 1
+fi
+
 # Ensure xclip is installed
 if ! command -v xclip &> /dev/null; then
     echo "xclip not found. Installing it..."
