@@ -21,4 +21,4 @@ This will copy the contents of the specified file to your clipboard.
 
 # Command to Install: 
 
-bash <(curl -fsSL https://raw.githubusercontent.com/yourusername/yourrepo/main/setup_cop.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/xattribution/cop/main/setup_cop.sh)
